@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+      <div id='app' class='center container'>
+
+        <div id='headers'>
+          <h1 id='main-title'>Play the Guessing Game!</h1>
+          <h2 id='sub-title'>Guess a number between 1 and 100...</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <input id='player-input' class='center' placeholder='#' maxlength='3' autofocus>
+            <button id='submit' class='btn btn-success'>Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <ul>
+              <li id='guess'>-</li>
+              <li id='guess'>-</li>
+              <li id='guess'>-</li>
+              <li id='guess'>-</li>
+              <li id='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <button id='hint-button' class='btn btn-info'>Hint?</button>
+            <button id='reset-button' class='btn btn-danger'>Reset</button>
+          </div>
+        </div>
+      </div>
+
+
+    <div id='footer' class='center'>
+        <div class='row'>
+          <div class='col-sm-4'>
+            <img src='fa-logo@2x_preview.png'></img>
+          </div>
+
+          <div class='autor-name col-sm-4'>
+            <h4>Project by Dave Trabka</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='grace_hopper_academy_preview.png'></img>
+          </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="GuessingGame.js"></script>
+    
+  </body>
+</html>
